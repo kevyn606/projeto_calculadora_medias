@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif; ;
+}
+
+body{
+    background-color: azure;
+    padding-top: 100px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+header img{
+    width: 36px;
+    margin-right: 16px;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container{
+    max-width:1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+form{ 
+    display: flex;
+    max-width: 684px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+ form button{
+    background-color: rgb(35, 116, 19);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+ }
+
+ form input{
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+ }
+ table{
+    width: 100%;
+ }
+ table th{
+    border-bottom: 2px solid black;
+    font-size: 24px;
+    padding: 16px;
+    font-weight: bold;
+ }
+
+ table td{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+ }
+ table td img{
+    width: 30px;
+ }
+
+ .resultado{
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+ }
+ .aprovado{
+    background-color: rgb(35, 116, 19);
+ }
+ .reprovado{
+    background-color: rgb(177, 10, 10);
+ }
